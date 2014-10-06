@@ -5,6 +5,5 @@ $(function(){
     .resizable({
       handles: 'e'
     });
-
   
 });
