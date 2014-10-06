@@ -1,0 +1,98 @@
+body {
+  font-family: 'Gloria Hallelujah';
+  text-align: center;
+  color: indigo;
+}
+
+.images {
+  position: relative;
+}
+
+.images img {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 77px;
+}
+
+.images img.before {
+  position: absolute;
+}
+
+.slider {
+  position: absolute;
+  cursor: ew-resize;
+  top: 0px;
+  left: 200px;
+  height: 729px;
+  width: 10px;
+  z-index: 1;
+  background-color: black;
+}
+
+.slider .handlebar {
+  position: absolute;
+  height: 48px;
+  width: 48px;
+  border-radius: 48px;
+  top: 365px;
+  left: -20px;
+  background-color: black;
+  color: white;
+}
+
+.slider .handlebar i {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+
+.footer {
+  font-size: 1.5em;
+}
+
+.spacer {
+  min-height: 729px;
+}
+
+a {
+  text-decoration: none;
+  color: indigo;
+}
+
+a:hover {
+  border-bottom: 1px dotted grey;
+}
+
+.actions a {
+  box-sizing: border-box;
+  background-color: indigo;
+  display: inline-block;
+  padding: 5px 20px;
+  color: white;
+  border: 1px solid white;
+}
+
+.actions a:hover {
+  background-color: white;
+  color: indigo;
+  border: 1px solid indigo;
+}
+
+.footer ul {
+  list-style: none
+}
+
+.footer li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.credits {
+  font-face: san-serif;
+  color: gray;  
+  font-size: 0.5em;   
+}
