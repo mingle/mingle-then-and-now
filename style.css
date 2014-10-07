@@ -11,18 +11,33 @@ h1 {
   position: relative;
 }
 
-.images .before {
-  background: url(before.png);
+.images.card-wall .before {
+  background: url(wall-before.png);
   width: 1230px;
   height: 729px;
 }
 
 .images .after {
   position: absolute;
+  border-right: 20px solid black;
+}
+
+.images.popup .before {
+  background: url(popup-before.png);
+  width: 1198px;
+  height: 715px;
+}
+
+.images.popup .after {
+  max-width: 1198px;
+  height: 714px;
+  background: url(popup-after.png);
+}
+
+.images.images.card-wall .after {  
   max-width: 1210px;
   height: 729px;
-  background: url(after.png);
-  border-right: 20px solid black;
+  background: url(wall-after.png);
 }
 
 .footer {
